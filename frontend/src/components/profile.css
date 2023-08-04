@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* margin-top: 40px; */
+    height: 50vh;
+}
+
+
+.part2{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.follow{
+    display: flex;
+    justify-content:space-between;
+/* font-size: 20px; */
+}
+
+
+.follow div h3{
+    
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 23px;
+}
+
+
+.thiscontainer{
+    /* margin-right: 10rem; */
+    margin-left: 10rem;
+    margin-top: 30px;
+    display: grid;
+    /* grid-template-columns:repeat(auto-fill,minmax(350,1fr)); */
+    /* grid-template-columns: repeat(auto-fill,minmax(160,1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    font-variant: small-caps;
+}
+
+.cards{
+    /* box-shadow: 0 3px 3px 3px black; */
+
+margin:10px 0;
+}
+
+img{
+    width: 20rem;
+}

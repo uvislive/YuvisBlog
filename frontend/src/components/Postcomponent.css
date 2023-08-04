@@ -1,0 +1,36 @@
+.yuvi{
+    margin-top: 300px
+}
+
+
+
+.pagebtns{
+    width: 100%;
+    height: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagebtns a{
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid blue;
+    cursor: pointer;
+
+}
+
+.pagebtns a:hover{
+    columns: white;
+    background-color: blue;
+}
+
+
+.options div:hover{
+    background-color: greenyellow;
+}
+
+
+.pagination{
+    margin-top: 40px;
+}

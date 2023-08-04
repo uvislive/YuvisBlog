@@ -1,0 +1,25 @@
+
+.myContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.myCard{
+    border: 1px solid white;
+    margin-left: 20%;
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    /* align-content: space-between; */
+    /* align-items: space-between; */
+    align-items: center;
+}
+
+img{
+    width: 10rem;
+
+}
